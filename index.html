@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <nav class="theme-nav">
+      <p class="calc">calc</p>
+      <nav class="theme-bar-container">
+        <p class="theme-text">theme</p>
+        <div class="theme">
+          <div class="circle"></div>
+          <span class="theme-1 theme-digit">1</span>
+          <span class="theme-2 theme-digit">2</span>
+          <span class="theme-3 theme-digit">3</span>
+        </div>
+      </nav>
+    </nav>
+    <div class="calc-result"></div>
+    <section class="calc-area">
+      <button class="btn val-display" data-num="7">7</button>
+      <button class="btn val-display" data-num="8">8</button>
+      <button class="btn val-display" data-num="9">9</button>
+      <button class="btn btn-del">DEL</button>
+      <button class="btn val-display" data-num="4">4</button>
+      <button class="btn val-display" data-num="5">5</button>
+      <button class="btn val-display" data-num="6">6</button>
+      <button class="btn val-display" data-op="+">+</button>
+      <button class="btn val-display" data-num="1">1</button>
+      <button class="btn val-display" data-num="2">2</button>
+      <button class="btn val-display" data-num="3">3</button>
+      <button class="btn val-display" data-op="-">-</button>
+      <button class="btn val-display">.</button>
+      <button class="btn val-display" data-num="0">0</button>
+      <button class="btn val-display" data-op="/">/</button>
+      <button class="btn val-display" data-op="*">*</button>
+      <button class="btn btn-reset">RESET</button>
+      <button class="btn btn-equals">=</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
